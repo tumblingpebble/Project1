@@ -1,0 +1,221 @@
+2024-10-05 22:50:56,773:INFO:Starting one_trial_script.py
+2024-10-05 22:50:56,773:INFO:Loading datasets
+2024-10-05 22:50:56,855:WARNING:Low GPU memory (1113 MiB). Switching CatBoost to CPU.
+2024-10-05 22:50:57,857:INFO:Initial CPU usage: 34.4%
+2024-10-05 22:50:57,857:INFO:Initial Memory usage: 10.8%
+2024-10-05 22:51:04,113:INFO:Model training completed in 6.26 seconds
+2024-10-05 22:51:05,116:INFO:CPU usage after training: 34.7%
+2024-10-05 22:51:05,116:INFO:Memory usage after training: 11.1%
+2024-10-05 22:51:05,116:INFO:Evaluating model on the test set
+2024-10-05 22:51:05,136:INFO:Test Set Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.81      0.71      0.76       525
+         1.0       0.85      0.91      0.88       975
+
+    accuracy                           0.84      1500
+   macro avg       0.83      0.81      0.82      1500
+weighted avg       0.84      0.84      0.84      1500
+
+2024-10-05 22:51:05,136:INFO:Test Set Confusion Matrix:
+[[373 152]
+ [ 88 887]]
+2024-10-05 22:51:05,157:INFO:Model saved to ../models/CatBoost_SMOTE_model.pkl
+2024-10-05 22:51:05,171:INFO:Test set predictions saved to ../predictions/CatBoost_SMOTE_test_predictions.csv
+2024-10-05 22:51:05,171:INFO:Test set probabilities saved to ../predictions/CatBoost_SMOTE_test_probabilities.csv
+2024-10-05 22:51:05,171:INFO:Generating learning curve
+2024-10-05 22:51:05,171:ERROR:An error occurred: name 'learning_curve' is not defined
+2024-10-05 22:51:05,172:ERROR:Traceback: Traceback (most recent call last):
+  File "/home/jovyan/project/scripts/onetrial.py", line 272, in main
+    train_sizes, train_scores, test_scores = learning_curve(
+                                             ^^^^^^^^^^^^^^
+NameError: name 'learning_curve' is not defined
+
+2024-10-05 22:53:45,003:INFO:Starting one_trial_script.py
+2024-10-05 22:53:45,003:INFO:Loading datasets
+2024-10-05 22:53:45,090:WARNING:Low GPU memory (1113 MiB). Switching CatBoost to CPU.
+2024-10-05 22:53:46,093:INFO:Initial CPU usage: 34.2%
+2024-10-05 22:53:46,093:INFO:Initial Memory usage: 10.6%
+2024-10-05 22:53:52,815:INFO:Model training completed in 6.72 seconds
+2024-10-05 22:53:53,818:INFO:CPU usage after training: 35.6%
+2024-10-05 22:53:53,818:INFO:Memory usage after training: 10.9%
+2024-10-05 22:53:53,818:INFO:Evaluating model on the test set
+2024-10-05 22:53:53,836:INFO:Test Set Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.81      0.71      0.76       525
+         1.0       0.85      0.91      0.88       975
+
+    accuracy                           0.84      1500
+   macro avg       0.83      0.81      0.82      1500
+weighted avg       0.84      0.84      0.84      1500
+
+2024-10-05 22:53:53,836:INFO:Test Set Confusion Matrix:
+[[373 152]
+ [ 88 887]]
+2024-10-05 22:53:53,859:INFO:Model saved to ../models/CatBoost_SMOTE_model.pkl
+2024-10-05 22:53:53,874:INFO:Test set predictions saved to ../predictions/CatBoost_SMOTE_test_predictions.csv
+2024-10-05 22:53:53,874:INFO:Test set probabilities saved to ../predictions/CatBoost_SMOTE_test_probabilities.csv
+2024-10-05 22:53:53,874:INFO:Generating learning curve
+2024-10-05 22:54:11,417:INFO:Learning curve saved to ../visualizations/CatBoost_SMOTE_learning_curve.png
+2024-10-05 22:54:11,519:INFO:Confusion matrix heatmap saved to ../visualizations/CatBoost_SMOTE_confusion_matrix.png
+2024-10-05 22:54:11,675:INFO:ROC curve saved to ../visualizations/CatBoost_SMOTE_roc_curve.png
+2024-10-05 22:54:11,676:INFO:Best threshold based on F1 score: 0.4676639872685286
+2024-10-05 22:54:11,682:INFO:Classification Report with Adjusted Threshold:
+              precision    recall  f1-score   support
+
+         0.0       0.83      0.69      0.75       525
+         1.0       0.85      0.92      0.88       975
+
+    accuracy                           0.84      1500
+   macro avg       0.84      0.81      0.82      1500
+weighted avg       0.84      0.84      0.84      1500
+
+2024-10-05 22:54:11,778:INFO:Precision-Recall curve saved to ../visualizations/CatBoost_SMOTE_precision_recall_curve.png
+2024-10-05 22:54:11,894:INFO:Feature importances plot saved to ../visualizations/CatBoost_SMOTE_feature_importances.png
+2024-10-05 22:54:11,894:INFO:one_trial_script.py completed successfully.
+2024-10-05 22:57:56,162:INFO:Starting one_trial_script.py
+2024-10-05 22:57:56,163:INFO:Loading datasets
+2024-10-05 22:57:56,250:WARNING:Low GPU memory (1113 MiB). Switching CatBoost to CPU.
+2024-10-05 22:57:57,252:INFO:Initial CPU usage: 48.3%
+2024-10-05 22:57:57,252:INFO:Initial Memory usage: 11.3%
+2024-10-05 22:58:04,672:INFO:Model training completed in 7.42 seconds
+2024-10-05 22:58:05,674:INFO:CPU usage after training: 51.9%
+2024-10-05 22:58:05,674:INFO:Memory usage after training: 11.2%
+2024-10-05 22:58:05,674:INFO:Evaluating model on the test set
+2024-10-05 22:58:05,697:INFO:Test Set Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.81      0.71      0.76       525
+         1.0       0.85      0.91      0.88       975
+
+    accuracy                           0.84      1500
+   macro avg       0.83      0.81      0.82      1500
+weighted avg       0.84      0.84      0.84      1500
+
+2024-10-05 22:58:05,698:INFO:Test Set Confusion Matrix:
+[[373 152]
+ [ 88 887]]
+2024-10-05 22:58:05,721:INFO:Model saved to ../models/CatBoost_SMOTE_model.pkl
+2024-10-05 22:58:05,769:INFO:Test set predictions saved to ../predictions/CatBoost_SMOTE_test_predictions.csv
+2024-10-05 22:58:05,769:INFO:Test set probabilities saved to ../predictions/CatBoost_SMOTE_test_probabilities.csv
+2024-10-05 22:58:05,769:INFO:Generating learning curve
+2024-10-05 22:58:28,418:INFO:Learning curve saved to ../visualizations/CatBoost_SMOTE_learning_curve.png
+2024-10-05 22:58:28,556:INFO:Confusion matrix heatmap saved to ../visualizations/CatBoost_SMOTE_confusion_matrix.png
+2024-10-05 22:58:28,692:INFO:ROC curve saved to ../visualizations/CatBoost_SMOTE_roc_curve.png
+2024-10-05 22:58:28,694:INFO:Best threshold based on F1 score: 0.4676639872685286
+2024-10-05 22:58:28,701:INFO:Classification Report with Adjusted Threshold:
+              precision    recall  f1-score   support
+
+         0.0       0.83      0.69      0.75       525
+         1.0       0.85      0.92      0.88       975
+
+    accuracy                           0.84      1500
+   macro avg       0.84      0.81      0.82      1500
+weighted avg       0.84      0.84      0.84      1500
+
+2024-10-05 22:58:28,809:INFO:Precision-Recall curve saved to ../visualizations/CatBoost_SMOTE_precision_recall_curve.png
+2024-10-05 22:58:28,939:INFO:Feature importances plot saved to ../visualizations/CatBoost_SMOTE_feature_importances.png
+2024-10-05 22:58:28,939:INFO:one_trial_script.py completed successfully.
+2024-10-06 23:36:54,242:INFO:Starting one_trial_script.py
+2024-10-06 23:36:54,291:INFO:Loading datasets
+2024-10-06 23:36:55,777:INFO:Initial CPU usage: 29.6%
+2024-10-06 23:36:55,777:INFO:Initial Memory usage: 26.6%
+2024-10-06 23:37:01,662:INFO:Model training completed in 5.88 seconds
+2024-10-06 23:37:02,664:INFO:CPU usage after training: 30.9%
+2024-10-06 23:37:02,664:INFO:Memory usage after training: 26.5%
+2024-10-06 23:37:02,664:INFO:Evaluating model on the test set
+2024-10-06 23:37:02,680:INFO:Test Set Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.79      0.70      0.74       525
+         1.0       0.85      0.90      0.87       975
+
+    accuracy                           0.83      1500
+   macro avg       0.82      0.80      0.81      1500
+weighted avg       0.83      0.83      0.83      1500
+
+2024-10-06 23:37:02,680:INFO:Test Set Confusion Matrix:
+[[367 158]
+ [100 875]]
+2024-10-06 23:37:02,744:INFO:Model saved to ../models/CatBoost_SMOTE_model.pkl
+2024-10-06 23:37:03,215:INFO:Test set predictions saved to ../predictions/CatBoost_SMOTE_test_predictions.csv
+2024-10-06 23:37:03,215:INFO:Test set probabilities saved to ../predictions/CatBoost_SMOTE_test_probabilities.csv
+2024-10-06 23:37:03,215:INFO:Generating learning curve
+2024-10-06 23:37:08,846:ERROR:An error occurred: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.
+
+The exit codes of the workers are {SIGABRT(-6), SIGABRT(-6), SIGABRT(-6), SIGABRT(-6), SIGABRT(-6)}
+2024-10-06 23:37:08,850:ERROR:Traceback: Traceback (most recent call last):
+  File "/home/jovyan/project/scripts/onetrial.py", line 273, in main
+    train_sizes, train_scores, test_scores = learning_curve(
+                                             ^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/sklearn/utils/_param_validation.py", line 213, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/sklearn/model_selection/_validation.py", line 1954, in learning_curve
+    results = parallel(
+              ^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/sklearn/utils/parallel.py", line 74, in __call__
+    return super().__call__(iterable_with_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/joblib/parallel.py", line 1952, in __call__
+    return output if self.return_generator else list(output)
+                                                ^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/joblib/parallel.py", line 1595, in _get_outputs
+    yield from self._retrieve()
+  File "/opt/conda/lib/python3.11/site-packages/joblib/parallel.py", line 1699, in _retrieve
+    self._raise_error_fast()
+  File "/opt/conda/lib/python3.11/site-packages/joblib/parallel.py", line 1734, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/opt/conda/lib/python3.11/site-packages/joblib/parallel.py", line 736, in get_result
+    return self._return_or_raise()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/joblib/parallel.py", line 754, in _return_or_raise
+    raise self._result
+joblib.externals.loky.process_executor.TerminatedWorkerError: A worker process managed by the executor was unexpectedly terminated. This could be caused by a segmentation fault while calling the function or by an excessive memory usage causing the Operating System to kill the worker.
+
+The exit codes of the workers are {SIGABRT(-6), SIGABRT(-6), SIGABRT(-6), SIGABRT(-6), SIGABRT(-6)}
+
+2024-10-06 23:41:39,679:INFO:Starting one_trial_script.py
+2024-10-06 23:41:39,679:INFO:Loading datasets
+2024-10-06 23:41:40,770:INFO:Initial CPU usage: 31.8%
+2024-10-06 23:41:40,770:INFO:Initial Memory usage: 26.5%
+2024-10-06 23:41:46,771:INFO:Model training completed in 6.00 seconds
+2024-10-06 23:41:47,773:INFO:CPU usage after training: 31.1%
+2024-10-06 23:41:47,773:INFO:Memory usage after training: 26.6%
+2024-10-06 23:41:47,773:INFO:Evaluating model on the test set
+2024-10-06 23:41:47,792:INFO:Test Set Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.79      0.70      0.74       525
+         1.0       0.85      0.90      0.87       975
+
+    accuracy                           0.83      1500
+   macro avg       0.82      0.80      0.81      1500
+weighted avg       0.83      0.83      0.83      1500
+
+2024-10-06 23:41:47,792:INFO:Test Set Confusion Matrix:
+[[367 158]
+ [100 875]]
+2024-10-06 23:41:47,809:INFO:Model saved to ../models/CatBoost_SMOTE_model.pkl
+2024-10-06 23:41:47,822:INFO:Test set predictions saved to ../predictions/CatBoost_SMOTE_test_predictions.csv
+2024-10-06 23:41:47,822:INFO:Test set probabilities saved to ../predictions/CatBoost_SMOTE_test_probabilities.csv
+2024-10-06 23:41:47,822:INFO:Generating learning curve
+2024-10-06 23:41:47,822:INFO:CatBoost task_type: GPU
+2024-10-06 23:44:09,118:INFO:Learning curve saved to ../visualizations/CatBoost_SMOTE_learning_curve.png
+2024-10-06 23:44:09,241:INFO:Confusion matrix heatmap saved to ../visualizations/CatBoost_SMOTE_confusion_matrix.png
+2024-10-06 23:44:09,398:INFO:ROC curve saved to ../visualizations/CatBoost_SMOTE_roc_curve.png
+2024-10-06 23:44:09,400:INFO:Best threshold based on F1 score: 0.5292236068568941
+2024-10-06 23:44:09,407:INFO:Classification Report with Adjusted Threshold:
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.73      0.75       525
+         1.0       0.86      0.89      0.87       975
+
+    accuracy                           0.83      1500
+   macro avg       0.82      0.81      0.81      1500
+weighted avg       0.83      0.83      0.83      1500
+
+2024-10-06 23:44:09,520:INFO:Precision-Recall curve saved to ../visualizations/CatBoost_SMOTE_precision_recall_curve.png
+2024-10-06 23:44:09,651:INFO:Feature importances plot saved to ../visualizations/CatBoost_SMOTE_feature_importances.png
+2024-10-06 23:44:09,651:INFO:one_trial_script.py completed successfully.

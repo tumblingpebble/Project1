@@ -1,0 +1,47 @@
+2024-10-05 12:05:43,437:INFO:Starting optimized_nla_random_forest.py script
+2024-10-05 12:05:43,437:INFO:Loading datasets
+2024-10-05 12:05:43,452:INFO:Initial CPU usage: 13.3%
+2024-10-05 12:05:43,452:INFO:Initial Memory usage: 10.0%
+2024-10-05 12:05:43,452:INFO:Starting hyperparameter tuning using RandomizedSearchCV
+2024-10-05 12:07:02,419:INFO:Hyperparameter tuning completed in 78.97 seconds
+2024-10-05 12:07:02,421:INFO:CPU usage after tuning: 29.4%
+2024-10-05 12:07:02,421:INFO:Memory usage after tuning: 10.8%
+2024-10-05 12:07:02,421:INFO:Best parameters: {'bootstrap': True, 'max_depth': 29, 'max_features': None, 'min_samples_leaf': 1, 'min_samples_split': 6, 'n_estimators': 260}
+2024-10-05 12:07:02,421:INFO:Best cross-validation score: 0.8239
+2024-10-05 12:07:02,421:INFO:Evaluating model on the validation set
+2024-10-05 12:07:02,509:INFO:Validation Set Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.81      0.70      0.75       525
+         1.0       0.85      0.91      0.88       975
+
+    accuracy                           0.84      1500
+   macro avg       0.83      0.80      0.81      1500
+weighted avg       0.83      0.84      0.83      1500
+
+2024-10-05 12:07:02,509:INFO:Validation Set Confusion Matrix:
+[[366 159]
+ [ 86 889]]
+2024-10-05 12:07:02,933:INFO:Model saved to ../models/optimized_rf_model_nla.pkl
+2024-10-05 12:07:02,934:INFO:Evaluating model on the test set
+2024-10-05 12:07:03,011:INFO:Test Set Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.70      0.75       525
+         1.0       0.85      0.92      0.88       975
+
+    accuracy                           0.84      1500
+   macro avg       0.84      0.81      0.82      1500
+weighted avg       0.84      0.84      0.84      1500
+
+2024-10-05 12:07:03,012:INFO:Test Set Confusion Matrix:
+[[365 160]
+ [ 79 896]]
+2024-10-05 12:07:03,087:INFO:Test set predictions saved to ../predictions/optimized_rf_test_predictions_nla.csv
+2024-10-05 12:07:03,087:INFO:Test set probabilities saved to ../predictions/optimized_rf_test_probabilities_nla.csv
+2024-10-05 12:07:03,087:INFO:Generating learning curve
+2024-10-05 12:07:05,483:INFO:Learning curve saved to ../visualizations/learning_curve_rf_nla.png
+2024-10-05 12:07:05,682:INFO:Confusion matrix heatmap saved to ../visualizations/confusion_matrix_rf_nla.png
+2024-10-05 12:07:05,840:INFO:ROC curve saved to ../visualizations/roc_curve_rf_nla.png
+2024-10-05 12:07:05,938:INFO:Precision-Recall curve saved to ../visualizations/precision_recall_rf_nla.png
+2024-10-05 12:07:05,938:INFO:optimized_nla_random_forest.py script completed
