@@ -61,8 +61,11 @@ This script performs hyperparameter optimization using Optuna and retrains the m
 Run: python scripts/optimized_model_training.py
 
 Acknowledgments
+
 Contributors: Jonathan Aguilar, Sakshi Srivastava, Ian-Bailey Soemarna
+
 Dataset Source: https://www.kaggle.com/datasets/marius2303/ad-click-prediction-dataset/data
+
 Libraries and Tools:
 Pandas
 NumPy
